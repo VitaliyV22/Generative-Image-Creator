@@ -78,7 +78,7 @@ function draw() {
    } 
      if (mouseIsPressed) {
     if (mouseButton === RIGHT) {
-      f = f - 10;
+      f = f/2;
       frameRate(f);
        
 }
